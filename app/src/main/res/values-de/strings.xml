@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login Sample</string>
+    <string name="register">REGISTRIEREN</string>
+    <string name="login_password_hint">Passwort</string>
+    <string name="don_t_have_an_account_yet_register_here">Sie haben noch keinen Account? Hier registrieren!</string>
+    <string name="forgot_password">Passwort vergessen?</string>
+    <string name="username">Nutzername</string>
+    <string name="login">Anmeldung</string>
+    <string name="welcome">Willkommen</string>
+    <string name="register_password_hint">Passwort</string>
+    <string name="name" >Name</string>
+    <string name="mobile_number">Telefonnummer</string>
+    <string name="line">Linie</string>
+    <string name="register_layout">REGISTRIEREN</string>
+    <string name="text">Text</string>
+    <string name="font_size">Schriftgröße</string>
+    <string name="print">Druck</string>
+    <string name="delete">LÖSCHEN</string>
+    <string name="delete_sentence">Möchten Sie diese Zeile wirklich löschen?</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="save">SPEICHERN</string>
+    <string name="toast_save">Deine Einstellungen wurden gespeichert!</string>
+    <string name="please_try_again">"Bitte versuche es erneut"</string>
+    <string name="wrong_username">"Benutzername oder Passwort falsch"</string>
+
+</resources>

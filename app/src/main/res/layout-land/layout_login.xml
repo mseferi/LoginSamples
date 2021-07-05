@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/whiteCardColor">
+
+
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin">
+
+        <TextView
+            android:id="@+id/tvLogin"
+            style="@style/headerTextPrimary"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:text="@string/login" />
+
+
+
+            <EditText
+                android:id="@+id/etUsername"
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:hint="@string/username"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:drawableStart="@drawable/ic_baseline_account_circle_24"
+                />
+
+
+
+            <EditText
+                android:id="@+id/etPassword"
+                style="@style/modifiedEditText"
+                android:hint="@string/login_password_hint"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                />
+
+
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            style="@style/viewParent"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:text="@string/forgot_password"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/newsMoreTextSize" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/loginButton"
+            android:text="@string/login"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        <TextView
+            android:id="@+id/tvRegister"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:text="@string/don_t_have_an_account_yet_register_here"
+            android:textAlignment="center"
+            android:textColor="@color/primaryTextColor"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

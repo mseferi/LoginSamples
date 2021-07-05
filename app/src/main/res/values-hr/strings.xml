@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login Sample</string>
+    <string name="register">REGISTRACIJA</string>
+    <string name="login_password_hint">Lozinka</string>
+    <string name="don_t_have_an_account_yet_register_here">Nemate račun? Registrirajte se ovdje!</string>
+    <string name="forgot_password">Zaboravili ste lozinku?</string>
+    <string name="welcome">Dobrodošli</string>
+    <string name="username">Korisničko ime</string>
+    <string name="login">Prijava</string>
+    <string name="register_password_hint">Lozinka</string>
+    <string name="line">Linija</string>
+    <string name="name">Ime</string>
+    <string name="mobile_number">Broj mobitela</string>
+    <string name="register_layout">REGISTRACIJA</string>
+    <string name="text">Tekst</string>
+    <string name="font_size">Veličina fonta</string>
+    <string name="print">Ispis</string>
+    <string name="delete" >OBRIŠI</string>
+    <string name="confirm">Potvrdi</string>
+    <string name="delete_sentence">Jeste li sigurni da želite obrisati ovaj redak?</string>
+    <string name="save">SPREMI</string>
+    <string name="toast_save">Vaše postavke su spremljene!</string>
+    <string name="please_try_again">"Pokušajte ponovo"</string>
+    <string name="wrong_username">"Pogrešno korisničko ime ili lozinka"</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/loginParent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:windowSoftInputMode="adjustNothing"
+    tools:context="com.example.loginsamples.screens.LoginActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/parent"
+        android:isScrollContainer="false"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout style="@style/parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:weightSum="12">
+
+                <LinearLayout
+                    style="@style/parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/login_shape_bk"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/parent"
+                        android:background="@drawable/ic_login_bk"
+                        android:contentDescription="@string/login_background" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tvWelcome"
+                    style="@style/headerText"
+                    android:layout_gravity="center"
+                    android:text="@string/welcome" />
+
+                <include
+                    layout="@layout/layout_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="251dp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/ivCroatian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="4dp"
+        app:srcCompat="@drawable/ic_croatia" />
+
+    <ImageView
+        android:id="@+id/ivEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="4dp"
+        android:layout_toEndOf="@+id/ivCroatian"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/ic_united_kingdom__1_" />
+
+    <ImageView
+        android:id="@+id/ivGerman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="4dp"
+        android:layout_toEndOf="@+id/ivEnglish"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/ic_germany" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:padding="40dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/billy" />
+
+
+</RelativeLayout>
+
+
